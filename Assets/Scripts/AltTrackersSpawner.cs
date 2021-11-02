@@ -1,7 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using Antilatency.Integration;
+using Antilatency.SDK;
 using Antilatency.DeviceNetwork;
 using System.Linq;
 

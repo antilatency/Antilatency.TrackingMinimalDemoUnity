@@ -1,5 +1,5 @@
 using Antilatency.DeviceNetwork;
-using Antilatency.Integration;
+using Antilatency.SDK;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;

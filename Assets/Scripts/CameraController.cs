@@ -1,4 +1,4 @@
-using Antilatency.Integration;
+using Antilatency.SDK;
 using UnityEngine;
 
 public class CameraController : MonoBehaviour

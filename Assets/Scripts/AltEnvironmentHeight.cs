@@ -1,4 +1,4 @@
-using Antilatency.Integration;
+using Antilatency.SDK;
 using System.Linq;
 using UnityEngine;
 
@@ -30,8 +30,13 @@ public class AltEnvironmentHeight : MonoBehaviour
 
         var envMarkers = nativeEnvironment.getMarkers();
 
+        var min = envMarkers.Aggregate((x, y) => x.y < y.y ? x : y).y;
         var max = envMarkers.Aggregate((x, y) => x.y > y.y ? x : y).y;
 
-        return max;
+        if (Mathf.Abs(max - min) > 0.001f) {
+            return 0.0f;
+        } else {
+            return max;
+        }
     }
 }
