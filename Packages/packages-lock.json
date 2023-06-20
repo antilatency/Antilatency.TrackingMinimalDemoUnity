@@ -10,11 +10,11 @@
       "hash": "801df7f4e85a39584bc6c6bebe69188d2e10b1d5"
     },
     "com.antilatency.sdk": {
-      "version": "https://github.com/AntilatencySDK/Release_3.5.2.git#subset-fbca7489742d0c510b067232282b4aaf9252fafa",
+      "version": "https://github.com/AntilatencySDK/Release_3.5.3.git#subset-a3979012516eda70476f9d9d19aafdb50f589049",
       "depth": 0,
       "source": "git",
       "dependencies": {},
-      "hash": "aad2e3dc1bfeb276e17a7f2e30460cea79a683d1"
+      "hash": "1ae45fa814d213fbd1e79aec9d4cf4a798f2537e"
     },
     "com.unity.collab-proxy": {
       "version": "2.0.4",

@@ -1,7 +1,7 @@
 {
   "dependencies": {
     "com.antilatency.ci-binding": "https://github.com/antilatency/Unity.CiBindingPackage.git",
-    "com.antilatency.sdk": "https://github.com/AntilatencySDK/Release_3.5.2.git#subset-fbca7489742d0c510b067232282b4aaf9252fafa",
+    "com.antilatency.sdk": "https://github.com/AntilatencySDK/Release_3.5.3.git#subset-a3979012516eda70476f9d9d19aafdb50f589049",
     "com.unity.collab-proxy": "2.0.4",
     "com.unity.ide.rider": "3.0.21",
     "com.unity.ide.visualstudio": "2.0.18",
