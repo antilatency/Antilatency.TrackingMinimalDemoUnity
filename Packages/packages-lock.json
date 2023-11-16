@@ -10,11 +10,11 @@
       "hash": "801df7f4e85a39584bc6c6bebe69188d2e10b1d5"
     },
     "com.antilatency.sdk": {
-      "version": "https://github.com/AntilatencySDK/Release_4.0.0.git#subset-76602a06327405e1cdb72280f3f5de98ac72368a",
+      "version": "https://github.com/AntilatencySDK/Release_4.1.0.git#subset-479f5779b6e07646d62447b266a2275050284032",
       "depth": 0,
       "source": "git",
       "dependencies": {},
-      "hash": "bee7c7f4127d0148660a65adc3f696bbcf055783"
+      "hash": "3477dae40a052b09d22070503bb9bae93338cb35"
     },
     "com.unity.collab-proxy": {
       "version": "2.0.4",
@@ -61,6 +61,15 @@
       "source": "registry",
       "dependencies": {
         "com.unity.modules.physics": "1.0.0"
+      },
+      "url": "https://packages.unity.com"
+    },
+    "com.unity.subsystemregistration": {
+      "version": "1.1.0",
+      "depth": 2,
+      "source": "registry",
+      "dependencies": {
+        "com.unity.modules.subsystems": "1.0.0"
       },
       "url": "https://packages.unity.com"
     },
@@ -116,14 +125,15 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.xr.management": {
-      "version": "4.3.3",
+      "version": "4.2.1",
       "depth": 1,
       "source": "registry",
       "dependencies": {
         "com.unity.modules.subsystems": "1.0.0",
         "com.unity.modules.vr": "1.0.0",
         "com.unity.modules.xr": "1.0.0",
-        "com.unity.xr.legacyinputhelpers": "2.1.7"
+        "com.unity.xr.legacyinputhelpers": "2.1.7",
+        "com.unity.subsystemregistration": "1.0.6"
       },
       "url": "https://packages.unity.com"
     },
