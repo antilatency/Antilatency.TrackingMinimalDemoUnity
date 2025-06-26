@@ -10,37 +10,21 @@
       "hash": "801df7f4e85a39584bc6c6bebe69188d2e10b1d5"
     },
     "com.antilatency.sdk": {
-      "version": "https://github.com/AntilatencySDK/Release_4.1.0.git#subset-479f5779b6e07646d62447b266a2275050284032",
+      "version": "https://github.com/AntilatencySDK/Release_4.5.0.git#subset-9981b5a2f659d60c5c83913dabf63caeec6c76a7",
       "depth": 0,
       "source": "git",
       "dependencies": {},
-      "hash": "3477dae40a052b09d22070503bb9bae93338cb35"
-    },
-    "com.unity.collab-proxy": {
-      "version": "2.0.4",
-      "depth": 0,
-      "source": "registry",
-      "dependencies": {},
-      "url": "https://packages.unity.com"
+      "hash": "423ff783097afa060cb9511882de5887eeeb58d5"
     },
     "com.unity.ext.nunit": {
       "version": "1.0.6",
-      "depth": 1,
+      "depth": 2,
       "source": "registry",
       "dependencies": {},
       "url": "https://packages.unity.com"
     },
-    "com.unity.ide.rider": {
-      "version": "3.0.21",
-      "depth": 0,
-      "source": "registry",
-      "dependencies": {
-        "com.unity.ext.nunit": "1.0.6"
-      },
-      "url": "https://packages.unity.com"
-    },
     "com.unity.ide.visualstudio": {
-      "version": "2.0.18",
+      "version": "2.0.23",
       "depth": 0,
       "source": "registry",
       "dependencies": {
@@ -66,7 +50,7 @@
     },
     "com.unity.test-framework": {
       "version": "1.1.31",
-      "depth": 0,
+      "depth": 1,
       "source": "registry",
       "dependencies": {
         "com.unity.ext.nunit": "1.0.6",
@@ -76,23 +60,11 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.textmeshpro": {
-      "version": "3.0.6",
+      "version": "3.0.9",
       "depth": 0,
       "source": "registry",
       "dependencies": {
         "com.unity.ugui": "1.0.0"
-      },
-      "url": "https://packages.unity.com"
-    },
-    "com.unity.timeline": {
-      "version": "1.6.5",
-      "depth": 0,
-      "source": "registry",
-      "dependencies": {
-        "com.unity.modules.director": "1.0.0",
-        "com.unity.modules.animation": "1.0.0",
-        "com.unity.modules.audio": "1.0.0",
-        "com.unity.modules.particlesystem": "1.0.0"
       },
       "url": "https://packages.unity.com"
     },
@@ -120,9 +92,9 @@
       "depth": 1,
       "source": "registry",
       "dependencies": {
-        "com.unity.modules.subsystems": "1.0.0",
         "com.unity.modules.vr": "1.0.0",
         "com.unity.modules.xr": "1.0.0",
+        "com.unity.modules.subsystems": "1.0.0",
         "com.unity.xr.legacyinputhelpers": "2.1.7"
       },
       "url": "https://packages.unity.com"
